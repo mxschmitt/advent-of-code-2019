@@ -13,7 +13,7 @@ func calculateFurtherFuel(mass int) int {
 }
 
 func main() {
-	inFile, err := os.Open("input.txt")
+	inFile, err := os.Open("../input.txt")
 	if err != nil {
 		log.Fatalf("could not open input file: %v", err)
 	}
